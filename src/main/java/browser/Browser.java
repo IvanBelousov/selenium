@@ -12,8 +12,17 @@ import java.time.Duration;
 import static browser.Config.BROWSER_TYPE;
 import static browser.Config.WAIT;
 
+/**
+ * Класс создан для упрощения объявления драйвера в тестах
+ */
 public class Browser {
     public static WebDriver driver;
+    /**
+     * Инициализируется (необходимо для работы драйвера, иначе ошибка) драйвер, устанавливается разрешение экрана
+     * и неявное ожидания
+     * Переменная BROWSER_TYPE отвечает за открытие необходимого браузера
+     * @return - возвращает экземпляр класса WebDriver
+     */
     public static WebDriver createDriver(){
 
         switch (BROWSER_TYPE){
@@ -32,6 +41,7 @@ public class Browser {
         }
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(WAIT));
+
         return driver;
     }
 
