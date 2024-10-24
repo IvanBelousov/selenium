@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b61ad1a-1a61-489b-9710-447b1dbcff40" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/constant/CategoryCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/constant/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/constant/LocatorsType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa/main_pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa/secondPage/LeftPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa/secondPage/SecondPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/ButtonsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/CheckBoxPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/DynamicPropertiesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/RadioButtonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/elements/TextBoxPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/widgets/SelectMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/buttonTests/ButtonTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/checkBoxTest/CheckBoxTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dynamicPropertiesTest/DynamicPropertiesTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mainPage/MainPageTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/radioButtonTest/RadioButtonTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selectMenuTest/SelectMenuTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/textBoxTest/TextBoxTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4b61ad1a-1a61-489b-9710-447b1dbcff40" name="Changes" comment="2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/browser/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/browser/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/browser/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/browser/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selectMenuTest/SelectMenuTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selectMenuTest/SelectMenuTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.CheckBoxTest1">
+  <component name="RunManager" selected="TestNG.SelectMenuTest1">
     <configuration name="ButtonTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumFirst" />
       <extension name="coverage">
@@ -118,16 +95,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioButtonTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumFirst" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mainPage.*" />
+          <option name="PATTERN" value="radioButtonTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mainPage" />
-      <option name="MAIN_CLASS_NAME" value="mainPage.MainPageTest1" />
+      <option name="PACKAGE_NAME" value="radioButtonTest" />
+      <option name="MAIN_CLASS_NAME" value="radioButtonTest.RadioButtonTest1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -154,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckBoxTest1" />
-        <item itemvalue="TestNG.MainPageTest1" />
         <item itemvalue="TestNG.SelectMenuTest1" />
         <item itemvalue="TestNG.DynamicPropertiesTest1" />
         <item itemvalue="TestNG.ButtonTest1" />
+        <item itemvalue="TestNG.RadioButtonTest1" />
+        <item itemvalue="TestNG.CheckBoxTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729596054128</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <option name="closed" value="true" />
+      <created>1729786544095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729786544095</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +180,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,16 +205,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/dynamicPropertiesTest/DynamicPropertiesTest1.java</url>
           <line>24</line>
           <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/dynamicPropertiesTest/DynamicPropertiesTest1.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/selectMenuTest/SelectMenuTest1.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/mainPage/MainPageTest1.java</url>
@@ -259,6 +235,61 @@
           <url>file://$PROJECT_DIR$/src/test/java/checkBoxTest/CheckBoxTest1.java</url>
           <line>28</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkBoxTest/CheckBoxTest1.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkBoxTest/CheckBoxTest1.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkBoxTest/CheckBoxTest1.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/radioButtonTest/RadioButtonTest1.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/radioButtonTest/RadioButtonTest1.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/buttonTests/ButtonTest1.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/buttonTests/ButtonTest1.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/buttonTests/ButtonTest1.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/buttonTests/ButtonTest1.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dynamicPropertiesTest/DynamicPropertiesTest1.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selectMenuTest/SelectMenuTest1.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
